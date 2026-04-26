@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Ejem{
     public static void main (String[] args){
         Scanner tilin = new Scanner(System.in);
-        System.out.println("---Convertidor de unidades---");
+        System.out.println("---Conversor de unidades---");
         System.out.println("1. De dolares a euros");
         System.out.println("2. De metros a kilometos");
         System.out.println("Ingrese la opcion que desee realizar: ");
