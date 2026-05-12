@@ -1,9 +1,12 @@
 package clases;
 import java.util.Scanner;
+//Clase main
 public class Main {
     public static void main (String [] args){
         Scanner cr = new Scanner(System.in);
-        /* 
+        
+
+
         // Ejercicio 1
        
         System.out.println("-- Serie de numeros naturales de tres en tres (1 4 7 ....)");
@@ -63,8 +66,8 @@ public class Main {
         System.out.println("El numero debe ser mayor que cero: ");
         y = cr.nextInt();
        }
-       Numero numero = new Numero();
-       numero.sumarNumero(y,x,w,z); 
+       Numero numeroo = new Numero();
+       numeroo.sumarNumero(y,x,w,z); 
        
 
        //Ejercicio 7
@@ -92,15 +95,15 @@ public class Main {
 
       //Ejercicio 9
       System.out.println("Ingrese la magnitud del cuadrado (3 en adelante): ");
-      int magnitud = cr.nextInt();
-      while(magnitud<3){
+      int magnitudd = cr.nextInt();
+      while(magnitudd<3){
         System.out.println("La magnitud debe ser de tres en adelante: ");
-        magnitud = cr.nextInt();
+        magnitudd = cr.nextInt();
 
       }
       Cuadrado cj = new Cuadrado();
-      cj.crearCuadrado(magnitud);
-      */
+      cj.crearCuadrado(magnitudd);
+      
      //Ejercicio 10
      System.out.println("Ingrese el numero de filas de su arbol (1....): ");
      int fila = cr.nextInt();
@@ -110,9 +113,10 @@ public class Main {
      }
      Arbol tree = new Arbol();
      tree.crearArbol(fila);
+     
 
 
-
+cr.close();
     }
 
 }
