@@ -13,14 +13,15 @@ public class ControladorGeneral {
 =======
 */
     public static void main(String[] args) throws InterruptedException {
-        /*
-        //Seccion 4
+        
+        //Darwin Seccion 4
         ContoladorArrays contoladorArrays= new ContoladorArrays();
         contoladorArrays.mostrarArrays();
-        //Seccion 5
+        //Darwin Seccion 5
         ControladorLoading controladorLoading= new ControladorLoading();
         controladorLoading.mostrarLoading();
-        */
+
+        //Marcos Seccion 1
         ContrladorEnum contrladorEnum= new ContrladorEnum();
         contrladorEnum.ControlarEnum();
         
