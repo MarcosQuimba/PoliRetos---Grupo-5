@@ -6,6 +6,9 @@ import EjerciciosArrays.ContoladorArrays;
 import EjerciciosLoading.ControladorLoading;
 
 public class ControladorGeneral {
+<<<<<<< HEAD
+    
+=======
 
     public static void main(String[] args) throws InterruptedException {
         //Seccion 4
@@ -15,4 +18,5 @@ public class ControladorGeneral {
         ControladorLoading controladorLoading= new ControladorLoading();
         controladorLoading.mostrarLoading();
     }
+>>>>>>> 98cd3e944066cd966f246292839afdf70c9691b3
 }
