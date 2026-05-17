@@ -1,11 +1,25 @@
-package clases;
+package clasesmain;
+
+
+import graficos.Arboll;
+import graficos.Cuadradoo;
+import graficos.Diagonall;
+import graficos.Gradaa;
+import graficos.Plusminus;
 import java.util.Scanner;
+import serieschar.Letraa;
+import serieschar.Lineaa;
+import serieschar.Masmenoss;
+import seriesnum.Numeroo;
+import seriesnum.Potenciaa;
+import seriesnum.Seriee;
+
 //Clase main
 public class Main {
     public static void main (String [] args){
         Scanner cr = new Scanner(System.in);
         
-/* 
+
         // Ejercicio 1
        
         System.out.println("-- Serie de numeros naturales de tres en tres (1 4 7 ....)");
@@ -17,7 +31,7 @@ public class Main {
         }
         Seriee fg = new Seriee();
         fg.mostrarSerie(num);
-        */
+        
          
         // Ejercicio 2
 
@@ -30,7 +44,7 @@ public class Main {
         }
         lt.mostrarLetras(numero);
 
-/* 
+ 
         // Ejercicio 3
 
         System.out.println("Ingrese la altura de la escalera: ");
@@ -134,8 +148,8 @@ public class Main {
         masmenos = cr.nextInt();
      }
      Plusminus sumaresta = new Plusminus();
-     sumaresta.Sumarsignos(masmenos);
-     */
+     sumaresta.sumarSignos(masmenos);
+     
      
 
 
