@@ -1,6 +1,6 @@
 package clases;
 
-public class Numero {
+public class Numeroo {
     public void sumarNumero(int f, int x, int y, int z){
        
         for (int i = 0; i<=f; i++){

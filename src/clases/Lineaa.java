@@ -1,6 +1,6 @@
 package clases;
 
-public class Linea {
+public class Lineaa {
     public void crearSerie(int linea){
     for (int i = 0; i < linea; i++){
         switch(i%5){

@@ -1,6 +1,6 @@
 package clases;
 
-public class Grada {
+public class Gradaa {
     public void crearEscalera(int a){
         for (int i = 1; i<=a; i++){
             for (int j = 1; j <= (i*2)-3; j++){

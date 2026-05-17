@@ -1,6 +1,6 @@
 package clases;
 
-public class Letra {
+public class Letraa {
     public void mostrarLetras(int n){
         char letra = 'a';
         

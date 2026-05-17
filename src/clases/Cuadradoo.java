@@ -1,6 +1,6 @@
 package clases;
 
-public class Cuadrado {
+public class Cuadradoo {
     public void crearCuadrado(int magnitud){
         for (int i = 0; i<magnitud; i++){
             for (int j = 0; j <magnitud; j++){
