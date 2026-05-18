@@ -4,18 +4,19 @@ movimiento rotacional de carga 0% hasta 100%  */
 
 import SerieEnum.ContrladorEnum;
 import SerieGraphos.ControladorGraphos;
+import SerieLoading.ControladorLoading;
 
 public class ControladorGeneral {
 
     public static void main() throws InterruptedException {
-/*        
+        
         //Darwin Seccion 4
         ContoladorArrays contoladorArrays= new ContoladorArrays();
         contoladorArrays.mostrarArrays();
         //Darwin Seccion 5
         ControladorLoading controladorLoading= new ControladorLoading();
         controladorLoading.mostrarLoading();
-*/
+
         //Marcos Seccion 1
         ContrladorEnum contrladorEnum= new ContrladorEnum();
         contrladorEnum.ControlarEnum();
