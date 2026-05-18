@@ -1,8 +1,9 @@
-package SerieGraphos;
+package SerieGraphos_Marcos;
 
 public class ValidadorClave {
-    
+
     public boolean ClaveValida(String Clave) {
+        System.out.println("Validando la clave: " + Clave);
         boolean minusValido = false;
         boolean MayusValido = false;
         boolean DigitoValido = false;

@@ -1,4 +1,4 @@
-package SerieEnum;
+package SerieEnum_Marcos;
 
 public class NumerosPrimos {
     public void MostrarPrimos() {

@@ -1,4 +1,4 @@
-package SerieEnum;
+package SerieEnum_Marcos;
 
 public class Duplicador {
     public void MostrarDup() {

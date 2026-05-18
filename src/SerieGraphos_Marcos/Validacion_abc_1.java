@@ -1,8 +1,9 @@
-package SerieGraphos;
+package SerieGraphos_Marcos;
 
 public class Validacion_abc_1 {
 
     public boolean validar_ABC(String Letters) {
+        System.err.println("Validando la cadena: " + Letters);
         int estado = 0;
 
         for (int i = 0; i < Letters.length(); i++) {

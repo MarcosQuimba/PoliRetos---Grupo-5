@@ -1,8 +1,9 @@
-package SerieGraphos;
+package SerieGraphos_Marcos;
 
 public class compilValidVariables {
 
     public boolean variableCorrecta(String VariableC) {
+        System.out.println("Validando la variable: " + VariableC);
     int Estado = 0;
         for (int i = 0; i < VariableC.length(); i++) {
             char Simbolo = VariableC.charAt(i);
