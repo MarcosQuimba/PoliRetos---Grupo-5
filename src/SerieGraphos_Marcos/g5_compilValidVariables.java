@@ -1,6 +1,6 @@
 package SerieGraphos_Marcos;
 
-public class compilValidVariables {
+public class g5_compilValidVariables {
 
     public boolean variableCorrecta(String VariableC) {
         System.out.println("Validando la variable: " + VariableC);

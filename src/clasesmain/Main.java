@@ -7,7 +7,7 @@ import graficos.Diagonall;
 import graficos.Gradaa;
 import graficos.Plusminus;
 import java.util.Scanner;
-import serieschar.Letraa;
+
 import serieschar.Lineaa;
 import serieschar.Masmenoss;
 import seriesnum.Numeroo;
@@ -36,13 +36,13 @@ public class Main {
         // Ejercicio 2
 
         System.out.println("Ingrese un numero par: ");
-        Letraa lt = new Letraa();
+        
         int numero = cr.nextInt();
         while(numero % 2 != 0 || numero < 0){
             System.out.println("El numero debe ser par y positivo: ");
             numero = cr.nextInt();
         }
-        lt.mostrarLetras(numero);
+        
 
  
         // Ejercicio 3

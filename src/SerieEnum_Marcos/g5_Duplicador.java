@@ -1,6 +1,6 @@
 package SerieEnum_Marcos;
 
-public class Duplicador {
+public class g5_Duplicador {
     public void MostrarDup() {
         int num = 1;
         System.out.println("Serie del Duplicador:");

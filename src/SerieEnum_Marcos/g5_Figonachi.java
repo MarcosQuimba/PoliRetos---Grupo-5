@@ -1,6 +1,6 @@
 package SerieEnum_Marcos;
 
-public class Figonachi {
+public class g5_Figonachi {
     public void MostrarFigonachi() {
         System.out.println("Serie de Figonachi:");
         int Num = 0;

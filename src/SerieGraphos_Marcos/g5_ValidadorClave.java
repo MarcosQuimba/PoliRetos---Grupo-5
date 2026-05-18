@@ -1,6 +1,6 @@
 package SerieGraphos_Marcos;
 
-public class ValidadorClave {
+public class g5_ValidadorClave {
 
     public boolean ClaveValida(String Clave) {
         System.out.println("Validando la clave: " + Clave);

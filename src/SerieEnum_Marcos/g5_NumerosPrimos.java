@@ -1,6 +1,6 @@
 package SerieEnum_Marcos;
 
-public class NumerosPrimos {
+public class g5_NumerosPrimos {
     public void MostrarPrimos() {
         System.out.println("Serie de Números Primos:");
         int count = 0;

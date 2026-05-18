@@ -1,11 +1,14 @@
 
-/*Indicador de carga desde 0  a 100% usar los signos \|/-| para simular un 
-movimiento rotacional de carga 0% hasta 100%  */
 
-import EjerciciosArrays.ContoladorArrays;
-import EjerciciosLoading.ControladorLoading;
+
+import EjerciciosArrays_Darwin.ContoladorArrays;
+import EjerciciosLoading_Darwin.ControladorLoading;
 import SerieEnum_Marcos.ContrladorEnum;
 import SerieGraphos_Marcos.ControladorGraphos;
+import serieschar.ControladorSeries;
+import graficos.ControladorFiguras;
+import EjerciciosCadenas.ControladorCadenas;
+import EjerciciosRecursion.ControladorRecursion;
 import java.util.concurrent.TimeUnit;
 
 public class ControladorGeneral {
@@ -22,17 +25,34 @@ public class ControladorGeneral {
         System.out.println("Marcos Quimba");
         TimeUnit.SECONDS.sleep(5);
         
-        //Darwin Seccion 4
-        ContoladorArrays contoladorArrays= new ContoladorArrays();
-        contoladorArrays.mostrarArrays();
-        //Darwin Seccion 5
-        ControladorLoading controladorLoading= new ControladorLoading();
-        controladorLoading.mostrarLoading();
-
         //Marcos Seccion 1
         ContrladorEnum contrladorEnum= new ContrladorEnum();
         contrladorEnum.ControlarEnum();
-        //Marcos Seccion 2
+
+        //Seccion 2
+        ControladorSeries controladorSeries = new ControladorSeries();
+        controladorSeries.mostrarSeriesChar();
+
+        //Seccion 3
+        ControladorFiguras controladorFiguras= new ControladorFiguras();
+        controladorFiguras.mostrarFiguras();
+        //Seccion 4
+        ControladorCadenas controladorCadenas= new ControladorCadenas();
+        controladorCadenas.mostrarCadenas();
+
+
+        //Darwin Seccion 5
+        ContoladorArrays contoladorArrays= new ContoladorArrays();
+        contoladorArrays.mostrarArrays();
+        //Darwin Seccion 6
+        ControladorLoading controladorLoading= new ControladorLoading();
+        controladorLoading.mostrarLoading();
+
+        //Seccion 7
+        ControladorRecursion controladorRecursion= new ControladorRecursion();
+        controladorRecursion.mostrarRecursion();
+
+        //Marcos Seccion 8
         ControladorGraphos controladorGrafos = new ControladorGraphos();
         controladorGrafos.main();
         

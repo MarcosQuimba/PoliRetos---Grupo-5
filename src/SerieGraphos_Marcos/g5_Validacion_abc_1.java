@@ -1,6 +1,6 @@
 package SerieGraphos_Marcos;
 
-public class Validacion_abc_1 {
+public class g5_Validacion_abc_1 {
 
     public boolean validar_ABC(String Letters) {
         System.err.println("Validando la cadena: " + Letters);

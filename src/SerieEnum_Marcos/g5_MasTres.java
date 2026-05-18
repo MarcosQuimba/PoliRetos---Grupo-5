@@ -1,6 +1,6 @@
 package SerieEnum_Marcos;
 
-public class MasTres {
+public class g5_MasTres {
     public void MostrarMasTres() {
         System.out.println("Serie de Mas Tres:");
         int num = 1;
