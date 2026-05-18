@@ -1,4 +1,4 @@
-package clases;
+package graficos;
 
 public class Arboll {
     public void crearArbol(int fila){

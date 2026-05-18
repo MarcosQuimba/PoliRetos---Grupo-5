@@ -1,4 +1,4 @@
-package clases;
+package graficos;
 
 public class Gradaa {
     public void crearEscalera(int a){

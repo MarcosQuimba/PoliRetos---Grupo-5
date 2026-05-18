@@ -1,4 +1,4 @@
-package clases;
+package serieschar;
 
 public class Lineaa {
     public void crearSerie(int linea){

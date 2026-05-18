@@ -1,4 +1,4 @@
-package clases;
+package graficos;
 
 public class Diagonall {
     public void graficarMatriz(int n){

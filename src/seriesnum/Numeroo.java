@@ -1,4 +1,4 @@
-package clases;
+package seriesnum;
 
 public class Numeroo {
     public void sumarNumero(int f, int x, int y, int z){

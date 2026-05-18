@@ -1,4 +1,4 @@
-package clases;
+package serieschar;
 
 public class Masmenoss {
     public void escribirMas (int j){
