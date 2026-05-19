@@ -1,4 +1,4 @@
-package clases;
+package seriesnum;
 
 public class Potenciaa {
     public void sacarPotencia(int d, double s, double base){

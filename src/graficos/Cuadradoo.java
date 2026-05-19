@@ -1,4 +1,4 @@
-package clases;
+package graficos;
 
 public class Cuadradoo {
     public void crearCuadrado(int magnitud){

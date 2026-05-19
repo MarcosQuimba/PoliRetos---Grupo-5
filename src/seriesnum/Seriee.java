@@ -1,4 +1,4 @@
-package clases;
+package seriesnum;
 
 public class Seriee {
     public void mostrarSerie(int n){

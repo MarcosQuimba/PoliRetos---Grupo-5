@@ -1,4 +1,4 @@
-package clases;
+package serieschar;
 
 public class Letraa {
     public void mostrarLetras(int n){

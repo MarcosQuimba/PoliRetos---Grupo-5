@@ -1,4 +1,4 @@
-package clases;
+package graficos;
 
 public class Plusminus {
     public void sumarSignos(int y){
