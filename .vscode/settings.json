@@ -1,5 +1,12 @@
 {
+<<<<<<< HEAD
     "java.project.sourcePaths": ["src"],
+=======
+    "java.project.sourcePaths": [
+        "src/EjerciciosRecursion",
+        "src"
+    ],
+>>>>>>> 94990b831be6d907d184ed7601a83fd53aa99c8d
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
         "lib/**/*.jar"

@@ -1,0 +1,7 @@
+*.class
+<<<<<<< HEAD
+*.vscode/
+=======
+/bin
+/oracleJdk-26
+>>>>>>> b665431b23876a1c3642b1908d996c1a9e9d8afa
