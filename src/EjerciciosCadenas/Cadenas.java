@@ -1,0 +1,48 @@
+package EjerciciosCadenas;
+
+public class Cadenas { 
+
+    // Métodos de Cadenas
+    public void contarVocales(String frase) {
+        int total = 0;
+        for (int i = 0; i < frase.length(); i++) {
+            char letra = Character.toLowerCase(frase.charAt(i));
+            if (letra == 'a' || letra == 'e' || letra == 'i' || letra == 'o' || letra == 'u') total++;
+        }
+        System.out.println("Salida: tiene " + total + " vocales");
+    }
+
+    public void invertirFrase(String frase) {
+        String resultado = "";
+        int i = frase.length() - 1;
+        while (i >= 0) {
+            char l = frase.charAt(i);
+            if ("aeiouAEIOU".indexOf(l) != -1) resultado += Character.toUpperCase(l);
+            else resultado += Character.toLowerCase(l);
+            i--;
+        }
+        System.out.println("Salida: " + resultado);
+    }
+
+    public void eliminarJota(String frase) {
+        String resultado = "";
+        int i = 0;
+        if (!frase.isEmpty()) {
+            do {
+                char l = frase.charAt(i);
+                if (l != 'j' && l != 'J') resultado += Character.toUpperCase(l);
+                i++;
+            } while (i < frase.length());
+        }
+        System.out.println("Salida: " + resultado);
+    }
+
+    public void invertirMin(String frase) {
+        String resultado = "";
+        for (int i = 0; i < frase.length(); i++) {
+            if (i % 2 == 0) resultado += Character.toUpperCase(frase.charAt(i));
+            else resultado += Character.toLowerCase(frase.charAt(i));
+        }
+        System.out.println("Salida: " + resultado);
+    }
+}

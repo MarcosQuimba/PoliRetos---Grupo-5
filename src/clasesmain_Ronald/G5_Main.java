@@ -7,6 +7,15 @@ import graficos_Ronald.G5_Diagonall;
 import graficos_Ronald.G5_Gradaa;
 import graficos_Ronald.G5_Plusminus;
 import java.util.Scanner;
+<<<<<<< HEAD:src/clasesmain_Ronald/G5_Main.java
+=======
+
+import serieschar.Lineaa;
+import serieschar.Masmenoss;
+import seriesnum.Numeroo;
+import seriesnum.Potenciaa;
+import seriesnum.Seriee;
+>>>>>>> d20c74c900264cd2080b3fb5f67c8df2492e2b4b:src/clasesmain/Main.java
 
 //Clase main
 public class Main {
@@ -17,13 +26,13 @@ public class Main {
         // Ejercicio 1
 
         System.out.println("Ingrese un numero par: ");
-        Letraa lt = new Letraa();
+        
         int numero = cr.nextInt();
         while(numero % 2 != 0 || numero < 0){
             System.out.println("El numero debe ser par y positivo: ");
             numero = cr.nextInt();
         }
-        lt.mostrarLetras(numero);
+        
 
  
         // Ejercicio 2
