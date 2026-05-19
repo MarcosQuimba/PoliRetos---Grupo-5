@@ -2,7 +2,7 @@ package serieschar_Ronald;
 import java.util.Scanner;
 
 public class controlador_seriee {
-    public static void ejecutar (){
+    public void ejecutar(){
 
         Scanner lm = new Scanner(System.in);
 

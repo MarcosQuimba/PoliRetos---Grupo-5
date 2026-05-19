@@ -1,16 +1,12 @@
 package SerieEnum_Marcos;
 
 public class g5_NumerosPrimos {
-<<<<<<< HEAD
 
-    public void MostrarPrimos(int cantidad) {
-=======
     public void MostrarPrimos() {
->>>>>>> 598b951e6eb7f62f0a922b25650cd6d66fa4269d
         System.out.println("Serie de Números Primos:");
         int count = 0;
         int num = 2;
-        while (count < cantidad) {
+        while (count < 10) {
             if (esPrimo(num)) {
                 System.out.print(num + " ");
                 count++;

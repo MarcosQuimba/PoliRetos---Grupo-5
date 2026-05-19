@@ -4,18 +4,14 @@ public class ContrladorEnum {
 
     public void ControlarEnum(){
         
+        int contador = 7;
         g5_Duplicador duplicador = new g5_Duplicador();
-        duplicador.MostrarDup();
+        duplicador.MostrarDup(contador);
         g5_Figonachi figonachi = new g5_Figonachi();
-        figonachi.MostrarFigonachi();
+        figonachi.MostrarFigonachi(contador);
         g5_MasTres masTres = new g5_MasTres();
-        masTres.MostrarMasTres();
+        masTres.MostrarMasTres(contador);
         g5_NumerosPrimos mostrarPrimos = new g5_NumerosPrimos();
-<<<<<<< HEAD
-        mostrarPrimos.MostrarPrimos(5);
-=======
         mostrarPrimos.MostrarPrimos();
->>>>>>> 598b951e6eb7f62f0a922b25650cd6d66fa4269d
-
     }
 }
