@@ -2,20 +2,17 @@ package EjerciciosCadenas_Christian;
 
 public class Cadenas { 
 
-<<<<<<< HEAD
-
-    public void contarVocales(String frase) {
-=======
     // Métodos de Cadenas
-    public void countVocales(String frase) {
->>>>>>> df556274716bf97310b9dd29e073f613b87fbd68
-        int total = 0;
-        for (int i = 0; i < frase.length(); i++) {
-            char letra = Character.toLowerCase(frase.charAt(i));
-            if (letra == 'a' || letra == 'e' || letra == 'i' || letra == 'o' || letra == 'u') total++;
-        }
+        public void countVocales(String frase) {
+            int total = 0;
+            for (int i = 0; i < frase.length(); i++) {
+                char letra = Character.toLowerCase(frase.charAt(i));
+                if (letra == 'a' || letra == 'e' || letra == 'i' || letra == 'o' || letra == 'u') total++;
+            }
         System.out.println("Salida: tiene " + total + " vocales");
-    }
+        }
+
+
    /*public void contarVocalesWhile(String frase) {
     int total = 0;
     int i = 0;

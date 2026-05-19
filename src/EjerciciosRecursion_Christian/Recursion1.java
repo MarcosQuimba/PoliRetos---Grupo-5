@@ -1,10 +1,12 @@
-<<<<<<< HEAD
+package EjerciciosRecursion_Christian;
 import java.util.Scanner;
 
-class RetosRecursion { 
-    public static void main(String[] args) {
+public class Recursion1{ 
+
+    public void impresion() {
+        
         Scanner sc = new Scanner(System.in);
-        RetosRecursion poli = new RetosRecursion();
+        Recursion1 poli = new Recursion1();
 
         System.out.print("Pon un numero para los retos de recursion: ");
         int n = sc.nextInt();
@@ -16,13 +18,7 @@ class RetosRecursion {
         System.out.println();
     }
 
-    
-=======
-package EjerciciosRecursion_Christian;
 
-public class Recursion1 { 
-
->>>>>>> df556274716bf97310b9dd29e073f613b87fbd68
     public int g5_r01(int n) {
         if (n <= 1) return 1;
         return n * g5_r01(n - 1);

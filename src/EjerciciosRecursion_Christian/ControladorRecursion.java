@@ -6,8 +6,7 @@ public class ControladorRecursion {
 
         Recursion1 recursion = new Recursion1();
 
-        recursion.g5_r01(5);
-        recursion.g5_r05(10);
+        recursion.impresion();
 
     }
 }
