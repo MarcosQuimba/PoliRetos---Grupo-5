@@ -1,6 +1,7 @@
 package SerieEnum_Marcos;
 
-public class Duplicador {
+// con el for
+public class g5_Duplicador {
     public void MostrarDup() {
         int num = 1;
         System.out.println("Serie del Duplicador:");
@@ -11,3 +12,37 @@ public class Duplicador {
         System.out.println();
     }
 }
+
+// con el while
+/*
+public class g5_Duplicador {
+    public void MostrarDup() {
+        int num = 1;
+        int count = 0;
+        System.out.println("Serie del Duplicador:");
+        while (count < 10) {
+            System.out.print(num + " ");
+            num *= 2;
+            count++;
+        }
+        System.out.println();
+    }
+}
+*/
+
+// con el do while
+/*
+public class g5_Duplicador {
+    public void MostrarDup() {
+        int num = 1;
+        int count = 0;
+        System.out.println("Serie del Duplicador:");
+        do {
+            System.out.print(num + " ");
+            num *= 2;
+            count++;
+        } while (count < 10);
+        System.out.println();
+    }
+}
+*/

@@ -1,11 +1,12 @@
 package SerieEnum_Marcos;
 
-public class NumerosPrimos {
-    public void MostrarPrimos() {
+public class g5_NumerosPrimos {
+
+    public void MostrarPrimos(int cantidad) {
         System.out.println("Serie de Números Primos:");
         int count = 0;
-        int num = 2; // El primer número primo
-        while (count < 10) {
+        int num = 2;
+        while (count < cantidad) {
             if (esPrimo(num)) {
                 System.out.print(num + " ");
                 count++;
@@ -15,7 +16,7 @@ public class NumerosPrimos {
         System.out.println();
     }
 
-    private static boolean esPrimo(int num) {
+    private boolean esPrimo(int num) {
         if (num <= 1) return false;
         for (int i = 2; i <= Math.sqrt(num); i++) {
             if (num % i == 0) return false;
