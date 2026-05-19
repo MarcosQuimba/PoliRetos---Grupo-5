@@ -16,5 +16,8 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 ## Dependency Management
 
 The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+<<<<<<< HEAD
 # PoliRetos---Grupo-5
 Se enuentran todos los ejercicios de los PoliRetos, que son los ejercicios 1,5,7,9
+=======
+>>>>>>> b665431b23876a1c3642b1908d996c1a9e9d8afa
