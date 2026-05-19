@@ -1,6 +1,6 @@
-package EjerciciosRecursion;
+package EjerciciosRecursion_Christian;
 
-public class Recursion { 
+public class Recursion1 { 
 
     public int g5_r01(int n) {
         if (n <= 1) return 1;

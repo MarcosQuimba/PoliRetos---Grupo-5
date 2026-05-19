@@ -1,9 +1,9 @@
-package EjerciciosCadenas;
+package EjerciciosCadenas_Christian;
 
 public class Cadenas { 
 
     // Métodos de Cadenas
-    public void contarVocales(String frase) {
+    public void countVocales(String frase) {
         int total = 0;
         for (int i = 0; i < frase.length(); i++) {
             char letra = Character.toLowerCase(frase.charAt(i));

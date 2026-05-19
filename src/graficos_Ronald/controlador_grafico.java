@@ -2,7 +2,7 @@
 package graficos_Ronald;
 import java.util.Scanner;
 public class controlador_grafico {
-    public static void ejecutar() {
+    public void ejecutar() {
         Scanner jt = new Scanner(System.in);
 
     // Ejercicio 1
