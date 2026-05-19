@@ -11,11 +11,7 @@ public class ContrladorEnum {
         g5_MasTres masTres = new g5_MasTres();
         masTres.MostrarMasTres();
         g5_NumerosPrimos mostrarPrimos = new g5_NumerosPrimos();
-<<<<<<< HEAD
-        mostrarPrimos.MostrarPrimos(5);
-=======
         mostrarPrimos.MostrarPrimos();
->>>>>>> 598b951e6eb7f62f0a922b25650cd6d66fa4269d
 
     }
 }

@@ -1,25 +1,9 @@
-import java.util.Scanner;
+package EjerciciosCadenas;
 
-class Cadenas { 
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        Cadenas poli = new Cadenas();
-
-        System.out.print("[C01] Escribe algo para contar vocales: ");
-        poli.g5_c01(sc.nextLine());
-
-        System.out.print("[C05] Escribe algo para invertirlo: ");
-        poli.g5_c05(sc.nextLine());
-
-        System.out.print("[C07] Escribe algo para borrarle la J: ");
-        poli.g5_c07(sc.nextLine());
-
-        System.out.print("[C09] Escribe algo para cambiar mayus/minus: ");
-        poli.g5_c09(sc.nextLine());
-    }
+public class Cadenas { 
 
     // Métodos de Cadenas
-    public void g5_c01(String frase) {
+    public void contarVocales(String frase) {
         int total = 0;
         for (int i = 0; i < frase.length(); i++) {
             char letra = Character.toLowerCase(frase.charAt(i));
@@ -28,7 +12,7 @@ class Cadenas {
         System.out.println("Salida: tiene " + total + " vocales");
     }
 
-    public void g5_c05(String frase) {
+    public void invertirFrase(String frase) {
         String resultado = "";
         int i = frase.length() - 1;
         while (i >= 0) {
@@ -40,7 +24,7 @@ class Cadenas {
         System.out.println("Salida: " + resultado);
     }
 
-    public void g5_c07(String frase) {
+    public void eliminarJota(String frase) {
         String resultado = "";
         int i = 0;
         if (!frase.isEmpty()) {
@@ -53,7 +37,7 @@ class Cadenas {
         System.out.println("Salida: " + resultado);
     }
 
-    public void g5_c09(String frase) {
+    public void invertirMin(String frase) {
         String resultado = "";
         for (int i = 0; i < frase.length(); i++) {
             if (i % 2 == 0) resultado += Character.toUpperCase(frase.charAt(i));

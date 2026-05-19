@@ -1,6 +1,9 @@
 package SerieEnum_Marcos;
 
+<<<<<<< HEAD
 // con el for
+=======
+>>>>>>> 598b951e6eb7f62f0a922b25650cd6d66fa4269d
 public class g5_Duplicador {
     public void MostrarDup() {
         int num = 1;

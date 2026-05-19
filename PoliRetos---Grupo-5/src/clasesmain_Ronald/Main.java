@@ -1,42 +1,23 @@
-package clasesmain;
+package clasesmain_Ronald;
 
 
-import graficos.Arboll;
-import graficos.Cuadradoo;
-import graficos.Diagonall;
-import graficos.Gradaa;
-import graficos.Plusminus;
+import graficos_Ronald.G5_Arboll;
+import graficos_Ronald.G5_Cuadradoo;
+import graficos_Ronald.G5_Diagonall;
+import graficos_Ronald.G5_Gradaa;
+import graficos_Ronald.G5_Plusminus;
 import java.util.Scanner;
-import serieschar.Letraa;
-import serieschar.Lineaa;
-import serieschar.Masmenoss;
-import seriesnum.Numeroo;
-import seriesnum.Potenciaa;
-import seriesnum.Seriee;
 
 //Clase main
 public class Main {
     public static void main (String [] args){
         Scanner cr = new Scanner(System.in);
         
-
-        // Ejercicio 1
-       
-        System.out.println("-- Serie de numeros naturales de tres en tres (1 4 7 ....)");
-        System.out.println("Ingrese el numero hasta el cual quiere ver la serie: ");
-        int num = cr.nextInt();
-        while (num < 1){
-            System.out.println("Ingrese un numero natural: ");
-            num = cr.nextInt();
-        }
-        Seriee fg = new Seriee();
-        fg.mostrarSerie(num);
-        
          
-        // Ejercicio 2
+        // Ejercicio 1
 
         System.out.println("Ingrese un numero par: ");
-        Letraa lt = new Letraa();
+        G5_Letraa lt = new G5_Letraa();
         int numero = cr.nextInt();
         while(numero % 2 != 0 || numero < 0){
             System.out.println("El numero debe ser par y positivo: ");
@@ -45,7 +26,7 @@ public class Main {
         lt.mostrarLetras(numero);
 
  
-        // Ejercicio 3
+        // Ejercicio 2
 
         System.out.println("Ingrese la altura de la escalera: ");
         int altura = cr.nextInt();
@@ -53,7 +34,7 @@ public class Main {
         gd.crearEscalera(altura);
          
 
-        //Ejercicio 4
+        //Ejercicio 3
 
         Diagonall dg = new Diagonall();
         System.out.println("Ingrese un numero entero impar: ");
@@ -65,7 +46,7 @@ public class Main {
         dg.graficarMatriz(magnitud);
         
 
-        //Ejercicio 5
+        //Ejercicio 4
 
         Masmenoss ms = new Masmenoss();
         System.out.println("Digite un numero entero positivo: ");
@@ -76,35 +57,12 @@ public class Main {
         }
         ms.escribirMas(h);
         
-       //Ejercicio 6
 
-       int x = 0;
-       int w = 1;
-       int z = 1;
-       System.out.println("Digite el numero de elementos de la serie: ");
-       int y = cr.nextInt();
-       while (y<=0){
-        System.out.println("El numero debe ser mayor que cero: ");
-        y = cr.nextInt();
-       }
-       Numeroo numeroo = new Numeroo();
-       numeroo.sumarNumero(y,x,w,z); 
        
 
-       //Ejercicio 7
 
-       double s = 0;
-       double base = 2;
-       System.out.println("Hasta que numero desea elevarle a numero 2 (0 - 20): ");
-       int potencia = cr.nextInt();
-       while (potencia <0 || potencia >20){
-        System.out.println("La potencia debe ser un numero positivo entre 0 y 20: ");
-        potencia = cr.nextInt();
-       }
-       Potenciaa pt = new Potenciaa();
-       pt.sacarPotencia(potencia, s, base);
        
-      // Ejercicio 8
+      // Ejercicio 5
 
       System.out.println("Ingrese cuantos tipos de lineas le gustaria ver en su serie (1...): ");
       int linea = cr.nextInt();
@@ -116,7 +74,7 @@ public class Main {
       rd.crearSerie(linea);
       
 
-      //Ejercicio 9
+      //Ejercicio 6
 
       System.out.println("Ingrese la magnitud del cuadrado (3 en adelante): ");
       int magnitudd = cr.nextInt();
@@ -128,7 +86,7 @@ public class Main {
       Cuadradoo cj = new Cuadradoo();
       cj.crearCuadrado(magnitudd);
       
-     //Ejercicio 10
+     //Ejercicio 7
      
      System.out.println("Ingrese el numero de filas de su arbol (1....): ");
      int fila = cr.nextInt();
@@ -139,7 +97,7 @@ public class Main {
      Arboll tree = new Arboll();
      tree.crearArbol(fila);
  
-     // Ejercicio 11
+     // Ejercicio 8
      System.out.println("Digite un numero entero: ");
      int masmenos = cr.nextInt();
 

@@ -1,8 +1,11 @@
 package SerieEnum_Marcos;
 
 public class g5_MasTres {
+<<<<<<< HEAD
 
 // con el for
+=======
+>>>>>>> 598b951e6eb7f62f0a922b25650cd6d66fa4269d
     public void MostrarMasTres() {
         System.out.println("Serie de Mas Tres:");
         int num = 1;
